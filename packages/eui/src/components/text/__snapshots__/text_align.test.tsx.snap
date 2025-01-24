@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EuiTextAlign is rendered 1`] = `
+<div
+  aria-label="aria-label"
+  class="testClass1 testClass2 emotion-euiTextAlign-left-euiTestCss"
+  data-test-subj="test subject string"
+/>
+`;
+
+exports[`EuiTextAlign props cloneElement cloneElement 1`] = `
+<p
+  class="emotion-euiTextAlign-left"
+>
+  Content
+</p>
+`;
+
+exports[`EuiTextAlign props direction center is rendered 1`] = `
+<div
+  class="emotion-euiTextAlign-center"
+/>
+`;
+
+exports[`EuiTextAlign props direction left is rendered 1`] = `
+<div
+  class="emotion-euiTextAlign-left"
+/>
+`;
+
+exports[`EuiTextAlign props direction right is rendered 1`] = `
+<div
+  class="emotion-euiTextAlign-right"
+/>
+`;

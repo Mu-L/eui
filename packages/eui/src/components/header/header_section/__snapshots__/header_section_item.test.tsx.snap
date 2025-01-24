@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EuiHeaderSectionItem renders with children 1`] = `
+<div
+  aria-label="aria-label"
+  class="euiHeaderSectionItem testClass1 testClass2 emotion-euiHeaderSectionItem-euiTestCss"
+  data-test-subj="test subject string"
+>
+  <span>
+    Call me Ishmael.
+  </span>
+</div>
+`;

@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EuiPopoverFooter is rendered 1`] = `
+<div
+  aria-label="aria-label"
+  class="euiPopoverFooter testClass1 testClass2 emotion-euiPopoverFooter-l-l-euiTestCss"
+  data-test-subj="test subject string"
+/>
+`;
+
+exports[`EuiPopoverFooter props paddingSize l is rendered 1`] = `
+<div
+  class="euiPopoverFooter emotion-euiPopoverFooter-l-l"
+/>
+`;
+
+exports[`EuiPopoverFooter props paddingSize m is rendered 1`] = `
+<div
+  class="euiPopoverFooter emotion-euiPopoverFooter-l-m"
+/>
+`;
+
+exports[`EuiPopoverFooter props paddingSize none is rendered 1`] = `
+<div
+  class="euiPopoverFooter emotion-euiPopoverFooter-l"
+/>
+`;
+
+exports[`EuiPopoverFooter props paddingSize s is rendered 1`] = `
+<div
+  class="euiPopoverFooter emotion-euiPopoverFooter-l-s"
+/>
+`;
+
+exports[`EuiPopoverFooter props paddingSize xl is rendered 1`] = `
+<div
+  class="euiPopoverFooter emotion-euiPopoverFooter-l-xl"
+/>
+`;
+
+exports[`EuiPopoverFooter props paddingSize xs is rendered 1`] = `
+<div
+  class="euiPopoverFooter emotion-euiPopoverFooter-l-xs"
+/>
+`;

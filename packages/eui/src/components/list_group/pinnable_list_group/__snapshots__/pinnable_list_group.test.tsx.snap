@@ -1,0 +1,339 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EuiPinnableListGroup can have custom pin icon titles 1`] = `
+<ul
+  aria-label="aria-label"
+  class="euiListGroup euiPinnableListGroup testClass1 testClass2 emotion-euiListGroup-s-maxWidthDefault-euiTestCss"
+  data-test-subj="test subject string"
+>
+  <li
+    class="euiListGroupItem euiPinnableListGroup__item emotion-euiListGroupItem-m"
+  >
+    <span
+      class="euiListGroupItem__text emotion-euiListGroupItem__inner-m-text"
+    >
+      <span
+        class="euiListGroupItem__icon emotion-euiListGroupItem__icon"
+        color="inherit"
+        data-euiicon-type="stop"
+      />
+      <span
+        class="euiListGroupItem__label emotion-euiListGroupItem__label-truncate"
+        title="Label with iconType"
+      >
+        Label with iconType
+      </span>
+    </span>
+    <button
+      aria-label="Pin Label with iconType to the top"
+      class="euiButtonIcon euiListGroupItemExtraAction emotion-euiButtonIcon-xs-empty-text-euiListGroupItemExtraAction-hoverStyles-euiPinnableListGroup__itemExtraAction"
+      title="Pin Label with iconType to the top"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="euiButtonIcon__icon"
+        color="inherit"
+        data-euiicon-type="pinFilled"
+      />
+    </button>
+  </li>
+  <li
+    class="euiListGroupItem euiPinnableListGroup__item emotion-euiListGroupItem-m"
+  >
+    <span
+      class="euiListGroupItem__text emotion-euiListGroupItem__inner-m-text"
+    >
+      <span
+        class="euiListGroupItem__label emotion-euiListGroupItem__label-truncate"
+        title="Custom extra action"
+      >
+        Custom extra action
+      </span>
+    </span>
+    <button
+      aria-label="bell"
+      class="euiButtonIcon euiListGroupItemExtraAction emotion-euiButtonIcon-xs-empty-text-euiListGroupItemExtraAction-alwaysShow"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="euiButtonIcon__icon"
+        color="inherit"
+        data-euiicon-type="bell"
+      />
+    </button>
+  </li>
+  <li
+    class="euiListGroupItem euiPinnableListGroup__item emotion-euiListGroupItem-text-text-m"
+  >
+    <a
+      class="euiListGroupItem__button emotion-euiListGroupItem__inner-m-text-isActive-isClickable"
+      href="#"
+      rel="noreferrer"
+    >
+      <span
+        class="euiListGroupItem__label emotion-euiListGroupItem__label-truncate"
+        title="Active link"
+      >
+        Active link
+      </span>
+    </a>
+    <button
+      aria-label="Pin Active link to the top"
+      class="euiButtonIcon euiListGroupItemExtraAction emotion-euiButtonIcon-xs-empty-text-euiListGroupItemExtraAction-hoverStyles-euiPinnableListGroup__itemExtraAction"
+      title="Pin Active link to the top"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="euiButtonIcon__icon"
+        color="inherit"
+        data-euiicon-type="pinFilled"
+      />
+    </button>
+  </li>
+  <li
+    class="euiListGroupItem euiPinnableListGroup__item emotion-euiListGroupItem-text-m"
+  >
+    <button
+      class="euiListGroupItem__button emotion-euiListGroupItem__inner-m-text-isClickable"
+      type="button"
+    >
+      <span
+        class="euiListGroupItem__label emotion-euiListGroupItem__label-truncate"
+        title="Button with onClick"
+      >
+        Button with onClick
+      </span>
+    </button>
+    <button
+      aria-label="Unpin Button with onClick to the top"
+      class="euiButtonIcon euiListGroupItemExtraAction emotion-euiButtonIcon-xs-empty-text-euiListGroupItemExtraAction-alwaysShow-euiPinnableListGroup__itemExtraAction-pinned"
+      title="Unpin Button with onClick to the top"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="euiButtonIcon__icon"
+        color="inherit"
+        data-euiicon-type="pinFilled"
+      />
+    </button>
+  </li>
+  <li
+    class="euiListGroupItem euiPinnableListGroup__item emotion-euiListGroupItem-text-m"
+  >
+    <a
+      class="euiListGroupItem__button emotion-euiListGroupItem__inner-m-text-isClickable"
+      href="#"
+      rel="noreferrer"
+    >
+      <span
+        class="euiListGroupItem__label emotion-euiListGroupItem__label-truncate"
+        title="Link with href"
+      >
+        Link with href
+      </span>
+    </a>
+    <button
+      aria-label="Pin Link with href to the top"
+      class="euiButtonIcon euiListGroupItemExtraAction emotion-euiButtonIcon-xs-empty-text-euiListGroupItemExtraAction-hoverStyles-euiPinnableListGroup__itemExtraAction"
+      title="Pin Link with href to the top"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="euiButtonIcon__icon"
+        color="inherit"
+        data-euiicon-type="pinFilled"
+      />
+    </button>
+  </li>
+  <li
+    class="euiListGroupItem euiPinnableListGroup__item emotion-euiListGroupItem-text-m"
+  >
+    <a
+      class="euiListGroupItem__button emotion-euiListGroupItem__inner-m-text-isClickable"
+      href="#"
+      rel="noreferrer"
+    >
+      <span
+        class="euiListGroupItem__label emotion-euiListGroupItem__label-truncate"
+        title="Not pinnable"
+      >
+        Not pinnable
+      </span>
+    </a>
+  </li>
+</ul>
+`;
+
+exports[`EuiPinnableListGroup is rendered 1`] = `
+<ul
+  aria-label="aria-label"
+  class="euiListGroup euiPinnableListGroup testClass1 testClass2 emotion-euiListGroup-s-maxWidthDefault-euiTestCss"
+  data-test-subj="test subject string"
+>
+  <li
+    class="euiListGroupItem euiPinnableListGroup__item emotion-euiListGroupItem-m"
+  >
+    <span
+      class="euiListGroupItem__text emotion-euiListGroupItem__inner-m-text"
+    >
+      <span
+        class="euiListGroupItem__icon emotion-euiListGroupItem__icon"
+        color="inherit"
+        data-euiicon-type="stop"
+      />
+      <span
+        class="euiListGroupItem__label emotion-euiListGroupItem__label-truncate"
+        title="Label with iconType"
+      >
+        Label with iconType
+      </span>
+    </span>
+    <button
+      aria-label="Pin item"
+      class="euiButtonIcon euiListGroupItemExtraAction emotion-euiButtonIcon-xs-empty-text-euiListGroupItemExtraAction-hoverStyles-euiPinnableListGroup__itemExtraAction"
+      title="Pin item"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="euiButtonIcon__icon"
+        color="inherit"
+        data-euiicon-type="pinFilled"
+      />
+    </button>
+  </li>
+  <li
+    class="euiListGroupItem euiPinnableListGroup__item emotion-euiListGroupItem-m"
+  >
+    <span
+      class="euiListGroupItem__text emotion-euiListGroupItem__inner-m-text"
+    >
+      <span
+        class="euiListGroupItem__label emotion-euiListGroupItem__label-truncate"
+        title="Custom extra action"
+      >
+        Custom extra action
+      </span>
+    </span>
+    <button
+      aria-label="bell"
+      class="euiButtonIcon euiListGroupItemExtraAction emotion-euiButtonIcon-xs-empty-text-euiListGroupItemExtraAction-alwaysShow"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="euiButtonIcon__icon"
+        color="inherit"
+        data-euiicon-type="bell"
+      />
+    </button>
+  </li>
+  <li
+    class="euiListGroupItem euiPinnableListGroup__item emotion-euiListGroupItem-text-text-m"
+  >
+    <a
+      class="euiListGroupItem__button emotion-euiListGroupItem__inner-m-text-isActive-isClickable"
+      href="#"
+      rel="noreferrer"
+    >
+      <span
+        class="euiListGroupItem__label emotion-euiListGroupItem__label-truncate"
+        title="Active link"
+      >
+        Active link
+      </span>
+    </a>
+    <button
+      aria-label="Pin item"
+      class="euiButtonIcon euiListGroupItemExtraAction emotion-euiButtonIcon-xs-empty-text-euiListGroupItemExtraAction-hoverStyles-euiPinnableListGroup__itemExtraAction"
+      title="Pin item"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="euiButtonIcon__icon"
+        color="inherit"
+        data-euiicon-type="pinFilled"
+      />
+    </button>
+  </li>
+  <li
+    class="euiListGroupItem euiPinnableListGroup__item emotion-euiListGroupItem-text-m"
+  >
+    <button
+      class="euiListGroupItem__button emotion-euiListGroupItem__inner-m-text-isClickable"
+      type="button"
+    >
+      <span
+        class="euiListGroupItem__label emotion-euiListGroupItem__label-truncate"
+        title="Button with onClick"
+      >
+        Button with onClick
+      </span>
+    </button>
+    <button
+      aria-label="Unpin item"
+      class="euiButtonIcon euiListGroupItemExtraAction emotion-euiButtonIcon-xs-empty-text-euiListGroupItemExtraAction-alwaysShow-euiPinnableListGroup__itemExtraAction-pinned"
+      title="Unpin item"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="euiButtonIcon__icon"
+        color="inherit"
+        data-euiicon-type="pinFilled"
+      />
+    </button>
+  </li>
+  <li
+    class="euiListGroupItem euiPinnableListGroup__item emotion-euiListGroupItem-text-m"
+  >
+    <a
+      class="euiListGroupItem__button emotion-euiListGroupItem__inner-m-text-isClickable"
+      href="#"
+      rel="noreferrer"
+    >
+      <span
+        class="euiListGroupItem__label emotion-euiListGroupItem__label-truncate"
+        title="Link with href"
+      >
+        Link with href
+      </span>
+    </a>
+    <button
+      aria-label="Pin item"
+      class="euiButtonIcon euiListGroupItemExtraAction emotion-euiButtonIcon-xs-empty-text-euiListGroupItemExtraAction-hoverStyles-euiPinnableListGroup__itemExtraAction"
+      title="Pin item"
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="euiButtonIcon__icon"
+        color="inherit"
+        data-euiicon-type="pinFilled"
+      />
+    </button>
+  </li>
+  <li
+    class="euiListGroupItem euiPinnableListGroup__item emotion-euiListGroupItem-text-m"
+  >
+    <a
+      class="euiListGroupItem__button emotion-euiListGroupItem__inner-m-text-isClickable"
+      href="#"
+      rel="noreferrer"
+    >
+      <span
+        class="euiListGroupItem__label emotion-euiListGroupItem__label-truncate"
+        title="Not pinnable"
+      >
+        Not pinnable
+      </span>
+    </a>
+  </li>
+</ul>
+`;

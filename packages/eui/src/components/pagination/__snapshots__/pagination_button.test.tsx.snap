@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EuiPaginationButton is rendered 1`] = `
+<button
+  aria-label="aria-label"
+  class="euiButtonEmpty euiPaginationButton testClass1 testClass2 emotion-euiButtonDisplay-euiButtonEmpty-s-empty-text-euiPaginationButton-euiTestCss"
+  data-test-subj="test subject string"
+  type="button"
+>
+  <span
+    class="euiButtonEmpty__content emotion-euiButtonDisplayContent"
+  >
+    <span
+      class="eui-textTruncate euiButtonEmpty__text"
+    >
+      2
+    </span>
+  </span>
+</button>
+`;

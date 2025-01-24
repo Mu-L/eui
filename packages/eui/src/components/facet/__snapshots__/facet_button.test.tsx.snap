@@ -1,0 +1,143 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EuiFacetButton is rendered 1`] = `
+<button
+  aria-label="aria-label"
+  class="euiFacetButton testClass1 testClass2 emotion-euiButtonDisplay-s-defaultMinWidth-euiFacetButton-euiTestCss"
+  data-test-subj="test subject string"
+  title="aria-label"
+  type="button"
+>
+  <span
+    class="emotion-euiButtonDisplayContent"
+  >
+    <span
+      class="euiFacetButton__text emotion-euiFacetButton__text-unSelected"
+      data-text="Content"
+    >
+      Content
+    </span>
+  </span>
+</button>
+`;
+
+exports[`EuiFacetButton props icon is rendered 1`] = `
+<button
+  class="euiFacetButton emotion-euiButtonDisplay-s-defaultMinWidth-euiFacetButton"
+  title="Content"
+  type="button"
+>
+  <span
+    class="emotion-euiButtonDisplayContent"
+  >
+    <span
+      class="euiFacetButton__icon emotion-euiFacetButton__icon"
+      data-euiicon-type="dot"
+    />
+    <span
+      class="euiFacetButton__text emotion-euiFacetButton__text-unSelected"
+      data-text="Content"
+    >
+      Content
+    </span>
+  </span>
+</button>
+`;
+
+exports[`EuiFacetButton props isDisabled is rendered 1`] = `
+<button
+  class="euiFacetButton emotion-euiButtonDisplay-s-defaultMinWidth-isDisabled-euiFacetButton"
+  disabled=""
+  title="Content"
+  type="button"
+>
+  <span
+    class="emotion-euiButtonDisplayContent"
+  >
+    <span
+      class="euiFacetButton__icon emotion-euiFacetButton__icon-isDisabled"
+      color="success"
+      data-euiicon-type="dot"
+    />
+    <span
+      class="euiFacetButton__text emotion-euiFacetButton__text-unSelected"
+      data-text="Content"
+    >
+      Content
+    </span>
+    <span
+      class="euiNotificationBadge euiFacetButton__quantity emotion-euiNotificationBadge-m-subdued-euiFacetButton__quantity-isDisabled"
+    >
+      6
+    </span>
+  </span>
+</button>
+`;
+
+exports[`EuiFacetButton props isLoading is rendered 1`] = `
+<button
+  class="euiFacetButton emotion-euiButtonDisplay-s-defaultMinWidth-isDisabled-euiFacetButton"
+  disabled=""
+  title="Content"
+  type="button"
+>
+  <span
+    class="emotion-euiButtonDisplayContent"
+  >
+    <span
+      class="euiFacetButton__text emotion-euiFacetButton__text-unSelected"
+      data-text="Content"
+    >
+      Content
+    </span>
+    <span
+      aria-label="Loading"
+      class="euiLoadingSpinner emotion-euiLoadingSpinner-m-euiFacetButton__loadingSpinner"
+      role="progressbar"
+    />
+  </span>
+</button>
+`;
+
+exports[`EuiFacetButton props isSelected is rendered 1`] = `
+<button
+  class="euiFacetButton emotion-euiButtonDisplay-s-defaultMinWidth-euiFacetButton"
+  title="Content"
+  type="button"
+>
+  <span
+    class="emotion-euiButtonDisplayContent"
+  >
+    <span
+      class="euiFacetButton__text emotion-euiFacetButton__text-isSelected"
+      data-text="Content"
+    >
+      Content
+    </span>
+  </span>
+</button>
+`;
+
+exports[`EuiFacetButton props quantity is rendered 1`] = `
+<button
+  class="euiFacetButton emotion-euiButtonDisplay-s-defaultMinWidth-euiFacetButton"
+  title="Content"
+  type="button"
+>
+  <span
+    class="emotion-euiButtonDisplayContent"
+  >
+    <span
+      class="euiFacetButton__text emotion-euiFacetButton__text-unSelected"
+      data-text="Content"
+    >
+      Content
+    </span>
+    <span
+      class="euiNotificationBadge euiFacetButton__quantity emotion-euiNotificationBadge-m-subdued-euiFacetButton__quantity"
+    >
+      60
+    </span>
+  </span>
+</button>
+`;

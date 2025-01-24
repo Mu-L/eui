@@ -1,0 +1,227 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EuiImage is rendered 1`] = `
+<figure
+  class="euiImageWrapper emotion-euiImageWrapper"
+>
+  <img
+    alt=""
+    aria-label="aria-label"
+    class="euiImage testClass1 testClass2 emotion-euiImage-original-euiTestCss"
+    data-test-subj="test subject string"
+    src="/cat.jpg"
+  />
+</figure>
+`;
+
+exports[`EuiImage props allowFullScreen 1`] = `
+<figure
+  class="euiImageWrapper emotion-euiImageWrapper-allowFullScreen"
+>
+  <button
+    class="emotion-euiImageButton-shadowHover"
+    data-test-subj="activateFullScreenButton"
+    type="button"
+  >
+    <img
+      alt=""
+      aria-label="aria-label"
+      class="euiImage testClass1 testClass2 emotion-euiImage-original-euiTestCss"
+      data-test-subj="test subject string"
+      src="/cat.jpg"
+    />
+    <div
+      class="emotion-euiImageButton__icon-openFullScreen"
+    >
+      <p
+        class="emotion-euiScreenReaderOnly"
+      >
+        Click to open this image in fullscreen mode
+      </p>
+      <span
+        color="ghost"
+        data-euiicon-type="fullScreen"
+      />
+    </div>
+  </button>
+</figure>
+`;
+
+exports[`EuiImage props caption 1`] = `
+<figure
+  aria-label="caption"
+  class="euiImageWrapper emotion-euiImageWrapper"
+>
+  <img
+    alt=""
+    aria-label="aria-label"
+    class="euiImage testClass1 testClass2 emotion-euiImage-original-euiTestCss"
+    data-test-subj="test subject string"
+    src="/cat.jpg"
+  />
+  <figcaption
+    class="emotion-euiImageCaption"
+  >
+    <span>
+      caption
+    </span>
+  </figcaption>
+</figure>
+`;
+
+exports[`EuiImage props float 1`] = `
+<figure
+  class="euiImageWrapper emotion-euiImageWrapper-left"
+>
+  <img
+    alt=""
+    aria-label="aria-label"
+    class="euiImage testClass1 testClass2 emotion-euiImage-original-euiTestCss"
+    data-test-subj="test subject string"
+    src="/cat.jpg"
+  />
+</figure>
+`;
+
+exports[`EuiImage props fullScreenIconColor 1`] = `
+<figure
+  class="euiImageWrapper emotion-euiImageWrapper-allowFullScreen"
+>
+  <button
+    class="emotion-euiImageButton-shadowHover"
+    data-test-subj="activateFullScreenButton"
+    type="button"
+  >
+    <img
+      alt=""
+      aria-label="aria-label"
+      class="euiImage testClass1 testClass2 emotion-euiImage-original-euiTestCss"
+      data-test-subj="test subject string"
+      src="/cat.jpg"
+    />
+    <div
+      class="emotion-euiImageButton__icon-openFullScreen"
+    >
+      <p
+        class="emotion-euiScreenReaderOnly"
+      >
+        Click to open this image in fullscreen mode
+      </p>
+      <span
+        color="default"
+        data-euiicon-type="fullScreen"
+      />
+    </div>
+  </button>
+</figure>
+`;
+
+exports[`EuiImage props hasShadow 1`] = `
+<figure
+  class="euiImageWrapper emotion-euiImageWrapper-allowFullScreen-fullWidth"
+>
+  <button
+    class="emotion-euiImageButton-hasShadowHover-fullWidth"
+    data-test-subj="activateFullScreenButton"
+    type="button"
+  >
+    <img
+      alt=""
+      aria-label="aria-label"
+      class="euiImage testClass1 testClass2 emotion-euiImage-fullWidth-hasShadow-euiTestCss"
+      data-test-subj="test subject string"
+      src="/cat.jpg"
+    />
+    <div
+      class="emotion-euiImageButton__icon-openFullScreen"
+    >
+      <p
+        class="emotion-euiScreenReaderOnly"
+      >
+        Click to open this image in fullscreen mode
+      </p>
+      <span
+        color="ghost"
+        data-euiicon-type="fullScreen"
+      />
+    </div>
+  </button>
+</figure>
+`;
+
+exports[`EuiImage props margin 1`] = `
+<figure
+  class="euiImageWrapper emotion-euiImageWrapper-l"
+>
+  <img
+    alt=""
+    aria-label="aria-label"
+    class="euiImage testClass1 testClass2 emotion-euiImage-original-euiTestCss"
+    data-test-subj="test subject string"
+    src="/cat.jpg"
+  />
+</figure>
+`;
+
+exports[`EuiImage props size 1`] = `
+<figure
+  class="euiImageWrapper emotion-euiImageWrapper"
+>
+  <img
+    alt=""
+    aria-label="aria-label"
+    class="euiImage testClass1 testClass2 emotion-euiImage-customSize-euiTestCss"
+    data-test-subj="test subject string"
+    src="/cat.jpg"
+    style="max-width: 50px; max-height: 50px;"
+  />
+</figure>
+`;
+
+exports[`EuiImage props src vs url src 1`] = `
+<figure
+  class="euiImageWrapper emotion-euiImageWrapper"
+>
+  <img
+    alt=""
+    class="euiImage emotion-euiImage-original"
+    src="/dog.jpg"
+  />
+</figure>
+`;
+
+exports[`EuiImage props src vs url url 1`] = `
+<figure
+  class="euiImageWrapper emotion-euiImageWrapper"
+>
+  <img
+    alt=""
+    class="euiImage emotion-euiImage-original"
+    src="/dog.jpg"
+  />
+</figure>
+`;
+
+exports[`EuiImage props wrapperProps 1`] = `
+<figure
+  alt=""
+  aria-label="aria-label"
+  class="euiImageWrapper testClass1 testClass2 emotion-euiImageWrapper-euiTestCss"
+  data-test-subj="test subject string"
+  src="/cat.jpg"
+  style="border: 2px solid red;"
+>
+  <img
+    alt="alt"
+    class="euiImage emotion-euiImage-original"
+    src="/cat.jpg"
+  />
+  <figcaption
+    class="emotion-euiImageCaption"
+  >
+    <span>
+      caption
+    </span>
+  </figcaption>
+</figure>
+`;

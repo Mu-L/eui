@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EuiCardSelect is rendered 1`] = `
+<button
+  aria-checked="false"
+  aria-label="aria-label"
+  class="euiButton testClass1 testClass2 emotion-euiButtonDisplay-m-fullWidth-defaultMinWidth-base-text-euiCardSelect-euiTestCss"
+  data-test-subj="test subject string"
+  role="switch"
+  type="button"
+>
+  <span
+    class="emotion-euiButtonDisplayContent"
+  >
+    Select
+  </span>
+</button>
+`;
+
+exports[`EuiCardSelect props can override color 1`] = `
+<button
+  aria-checked="false"
+  class="euiButton emotion-euiButtonDisplay-m-fullWidth-defaultMinWidth-base-danger-euiCardSelect"
+  role="switch"
+  type="button"
+>
+  <span
+    class="emotion-euiButtonDisplayContent"
+  >
+    Select
+  </span>
+</button>
+`;
+
+exports[`EuiCardSelect props can override text 1`] = `
+<button
+  aria-checked="false"
+  class="euiButton emotion-euiButtonDisplay-m-fullWidth-defaultMinWidth-base-text-euiCardSelect"
+  role="switch"
+  type="button"
+>
+  <span
+    class="emotion-euiButtonDisplayContent"
+  >
+    <span
+      class="eui-textTruncate"
+    >
+      Custom text
+    </span>
+  </span>
+</button>
+`;
+
+exports[`EuiCardSelect props isDisabled 1`] = `
+<button
+  aria-checked="false"
+  class="euiButton emotion-euiButtonDisplay-m-fullWidth-defaultMinWidth-isDisabled-base-disabled-euiCardSelect"
+  disabled=""
+  role="switch"
+  type="button"
+>
+  <span
+    class="emotion-euiButtonDisplayContent"
+  >
+    Unavailable
+  </span>
+</button>
+`;
+
+exports[`EuiCardSelect props isSelected 1`] = `
+<button
+  aria-checked="true"
+  class="euiButton emotion-euiButtonDisplay-m-fullWidth-defaultMinWidth-base-success-euiCardSelect"
+  role="switch"
+  type="button"
+>
+  <span
+    class="emotion-euiButtonDisplayContent"
+  >
+    <span
+      color="inherit"
+      data-euiicon-type="check"
+    />
+    Selected
+  </span>
+</button>
+`;
