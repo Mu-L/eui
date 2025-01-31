@@ -1,0 +1,354 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EuiHealth is rendered 1`] = `
+<div
+  aria-label="aria-label"
+  class="euiHealth testClass1 testClass2 emotion-euiHealth-s-euiTestCss"
+  data-test-subj="test subject string"
+>
+  <div
+    class="euiFlexGroup emotion-euiFlexGroup-xs-flexStart-center-row"
+  >
+    <div
+      class="euiFlexItem emotion-euiFlexItem-growZero"
+    >
+      <span
+        data-euiicon-type="dot"
+      />
+    </div>
+    <div
+      class="euiFlexItem emotion-euiFlexItem-growZero"
+    />
+  </div>
+</div>
+`;
+
+exports[`EuiHealth props color #000000 is rendered 1`] = `
+<div
+  class="euiHealth emotion-euiHealth-s"
+>
+  <div
+    class="euiFlexGroup emotion-euiFlexGroup-xs-flexStart-center-row"
+  >
+    <div
+      class="euiFlexItem emotion-euiFlexItem-growZero"
+    >
+      <span
+        color="#000000"
+        data-euiicon-type="dot"
+      />
+    </div>
+    <div
+      class="euiFlexItem emotion-euiFlexItem-growZero"
+    />
+  </div>
+</div>
+`;
+
+exports[`EuiHealth props color accent is rendered 1`] = `
+<div
+  class="euiHealth emotion-euiHealth-s"
+>
+  <div
+    class="euiFlexGroup emotion-euiFlexGroup-xs-flexStart-center-row"
+  >
+    <div
+      class="euiFlexItem emotion-euiFlexItem-growZero"
+    >
+      <span
+        color="accent"
+        data-euiicon-type="dot"
+      />
+    </div>
+    <div
+      class="euiFlexItem emotion-euiFlexItem-growZero"
+    />
+  </div>
+</div>
+`;
+
+exports[`EuiHealth props color danger is rendered 1`] = `
+<div
+  class="euiHealth emotion-euiHealth-s"
+>
+  <div
+    class="euiFlexGroup emotion-euiFlexGroup-xs-flexStart-center-row"
+  >
+    <div
+      class="euiFlexItem emotion-euiFlexItem-growZero"
+    >
+      <span
+        color="danger"
+        data-euiicon-type="dot"
+      />
+    </div>
+    <div
+      class="euiFlexItem emotion-euiFlexItem-growZero"
+    />
+  </div>
+</div>
+`;
+
+exports[`EuiHealth props color default is rendered 1`] = `
+<div
+  class="euiHealth emotion-euiHealth-s"
+>
+  <div
+    class="euiFlexGroup emotion-euiFlexGroup-xs-flexStart-center-row"
+  >
+    <div
+      class="euiFlexItem emotion-euiFlexItem-growZero"
+    >
+      <span
+        color="default"
+        data-euiicon-type="dot"
+      />
+    </div>
+    <div
+      class="euiFlexItem emotion-euiFlexItem-growZero"
+    />
+  </div>
+</div>
+`;
+
+exports[`EuiHealth props color ghost is rendered 1`] = `
+<div
+  class="euiHealth emotion-euiHealth-s"
+>
+  <div
+    class="euiFlexGroup emotion-euiFlexGroup-xs-flexStart-center-row"
+  >
+    <div
+      class="euiFlexItem emotion-euiFlexItem-growZero"
+    >
+      <span
+        color="ghost"
+        data-euiicon-type="dot"
+      />
+    </div>
+    <div
+      class="euiFlexItem emotion-euiFlexItem-growZero"
+    />
+  </div>
+</div>
+`;
+
+exports[`EuiHealth props color inherit is rendered 1`] = `
+<div
+  class="euiHealth emotion-euiHealth-s"
+>
+  <div
+    class="euiFlexGroup emotion-euiFlexGroup-xs-flexStart-center-row"
+  >
+    <div
+      class="euiFlexItem emotion-euiFlexItem-growZero"
+    >
+      <span
+        color="inherit"
+        data-euiicon-type="dot"
+      />
+    </div>
+    <div
+      class="euiFlexItem emotion-euiFlexItem-growZero"
+    />
+  </div>
+</div>
+`;
+
+exports[`EuiHealth props color primary is rendered 1`] = `
+<div
+  class="euiHealth emotion-euiHealth-s"
+>
+  <div
+    class="euiFlexGroup emotion-euiFlexGroup-xs-flexStart-center-row"
+  >
+    <div
+      class="euiFlexItem emotion-euiFlexItem-growZero"
+    >
+      <span
+        color="primary"
+        data-euiicon-type="dot"
+      />
+    </div>
+    <div
+      class="euiFlexItem emotion-euiFlexItem-growZero"
+    />
+  </div>
+</div>
+`;
+
+exports[`EuiHealth props color subdued is rendered 1`] = `
+<div
+  class="euiHealth emotion-euiHealth-s"
+>
+  <div
+    class="euiFlexGroup emotion-euiFlexGroup-xs-flexStart-center-row"
+  >
+    <div
+      class="euiFlexItem emotion-euiFlexItem-growZero"
+    >
+      <span
+        color="subdued"
+        data-euiicon-type="dot"
+      />
+    </div>
+    <div
+      class="euiFlexItem emotion-euiFlexItem-growZero"
+    />
+  </div>
+</div>
+`;
+
+exports[`EuiHealth props color success is rendered 1`] = `
+<div
+  class="euiHealth emotion-euiHealth-s"
+>
+  <div
+    class="euiFlexGroup emotion-euiFlexGroup-xs-flexStart-center-row"
+  >
+    <div
+      class="euiFlexItem emotion-euiFlexItem-growZero"
+    >
+      <span
+        color="success"
+        data-euiicon-type="dot"
+      />
+    </div>
+    <div
+      class="euiFlexItem emotion-euiFlexItem-growZero"
+    />
+  </div>
+</div>
+`;
+
+exports[`EuiHealth props color text is rendered 1`] = `
+<div
+  class="euiHealth emotion-euiHealth-s"
+>
+  <div
+    class="euiFlexGroup emotion-euiFlexGroup-xs-flexStart-center-row"
+  >
+    <div
+      class="euiFlexItem emotion-euiFlexItem-growZero"
+    >
+      <span
+        color="text"
+        data-euiicon-type="dot"
+      />
+    </div>
+    <div
+      class="euiFlexItem emotion-euiFlexItem-growZero"
+    />
+  </div>
+</div>
+`;
+
+exports[`EuiHealth props color warning is rendered 1`] = `
+<div
+  class="euiHealth emotion-euiHealth-s"
+>
+  <div
+    class="euiFlexGroup emotion-euiFlexGroup-xs-flexStart-center-row"
+  >
+    <div
+      class="euiFlexItem emotion-euiFlexItem-growZero"
+    >
+      <span
+        color="warning"
+        data-euiicon-type="dot"
+      />
+    </div>
+    <div
+      class="euiFlexItem emotion-euiFlexItem-growZero"
+    />
+  </div>
+</div>
+`;
+
+exports[`EuiHealth props textSize inherit is rendered 1`] = `
+<div
+  class="euiHealth emotion-euiHealth-inherit"
+>
+  <div
+    class="euiFlexGroup emotion-euiFlexGroup-xs-flexStart-center-row"
+  >
+    <div
+      class="euiFlexItem emotion-euiFlexItem-growZero"
+    >
+      <span
+        color="success"
+        data-euiicon-type="dot"
+      />
+    </div>
+    <div
+      class="euiFlexItem emotion-euiFlexItem-growZero"
+    />
+  </div>
+</div>
+`;
+
+exports[`EuiHealth props textSize m is rendered 1`] = `
+<div
+  class="euiHealth emotion-euiHealth-m"
+>
+  <div
+    class="euiFlexGroup emotion-euiFlexGroup-xs-flexStart-center-row"
+  >
+    <div
+      class="euiFlexItem emotion-euiFlexItem-growZero"
+    >
+      <span
+        color="success"
+        data-euiicon-type="dot"
+      />
+    </div>
+    <div
+      class="euiFlexItem emotion-euiFlexItem-growZero"
+    />
+  </div>
+</div>
+`;
+
+exports[`EuiHealth props textSize s is rendered 1`] = `
+<div
+  class="euiHealth emotion-euiHealth-s"
+>
+  <div
+    class="euiFlexGroup emotion-euiFlexGroup-xs-flexStart-center-row"
+  >
+    <div
+      class="euiFlexItem emotion-euiFlexItem-growZero"
+    >
+      <span
+        color="success"
+        data-euiicon-type="dot"
+      />
+    </div>
+    <div
+      class="euiFlexItem emotion-euiFlexItem-growZero"
+    />
+  </div>
+</div>
+`;
+
+exports[`EuiHealth props textSize xs is rendered 1`] = `
+<div
+  class="euiHealth emotion-euiHealth-xs"
+>
+  <div
+    class="euiFlexGroup emotion-euiFlexGroup-xs-flexStart-center-row"
+  >
+    <div
+      class="euiFlexItem emotion-euiFlexItem-growZero"
+    >
+      <span
+        color="success"
+        data-euiicon-type="dot"
+      />
+    </div>
+    <div
+      class="euiFlexItem emotion-euiFlexItem-growZero"
+    />
+  </div>
+</div>
+`;

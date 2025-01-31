@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EuiLoadingLogo is rendered 1`] = `
+<span
+  aria-label="aria-label"
+  class="euiLoadingLogo testClass1 testClass2 emotion-euiLoadingLogo-m-euiTestCss"
+  data-test-subj="test subject string"
+  role="progressbar"
+>
+  <span
+    class="emotion-euiLoadingLogo__icon"
+  >
+    <span
+      data-euiicon-type="logoKibana"
+    />
+  </span>
+</span>
+`;
+
+exports[`EuiLoadingLogo logo is rendered 1`] = `
+<span
+  aria-label="aria-label"
+  class="euiLoadingLogo testClass1 testClass2 emotion-euiLoadingLogo-m-euiTestCss"
+  data-test-subj="test subject string"
+  role="progressbar"
+>
+  <span
+    class="emotion-euiLoadingLogo__icon"
+  >
+    <span
+      data-euiicon-type="logoElastic"
+    />
+  </span>
+</span>
+`;
+
+exports[`EuiLoadingLogo size l is rendered 1`] = `
+<span
+  aria-label="Loading"
+  class="euiLoadingLogo emotion-euiLoadingLogo-l"
+  role="progressbar"
+>
+  <span
+    class="emotion-euiLoadingLogo__icon"
+  >
+    <span
+      data-euiicon-type="logoKibana"
+    />
+  </span>
+</span>
+`;
+
+exports[`EuiLoadingLogo size m is rendered 1`] = `
+<span
+  aria-label="Loading"
+  class="euiLoadingLogo emotion-euiLoadingLogo-m"
+  role="progressbar"
+>
+  <span
+    class="emotion-euiLoadingLogo__icon"
+  >
+    <span
+      data-euiicon-type="logoKibana"
+    />
+  </span>
+</span>
+`;
+
+exports[`EuiLoadingLogo size xl is rendered 1`] = `
+<span
+  aria-label="Loading"
+  class="euiLoadingLogo emotion-euiLoadingLogo-xl"
+  role="progressbar"
+>
+  <span
+    class="emotion-euiLoadingLogo__icon"
+  >
+    <span
+      data-euiicon-type="logoKibana"
+    />
+  </span>
+</span>
+`;

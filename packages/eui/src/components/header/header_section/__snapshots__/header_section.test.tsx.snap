@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EuiHeaderSection grow renders true 1`] = `
+<div
+  class="euiHeaderSection emotion-euiHeaderSection-grow"
+/>
+`;
+
+exports[`EuiHeaderSection renders 1`] = `
+<div
+  aria-label="aria-label"
+  class="euiHeaderSection testClass1 testClass2 emotion-euiHeaderSection-euiTestCss"
+  data-test-subj="test subject string"
+>
+  <span>
+    Some years ago never mind how long precisely...
+  </span>
+</div>
+`;
+
+exports[`EuiHeaderSection side renders left 1`] = `
+<div
+  class="euiHeaderSection emotion-euiHeaderSection-left"
+/>
+`;
+
+exports[`EuiHeaderSection side renders right 1`] = `
+<div
+  class="euiHeaderSection emotion-euiHeaderSection-right"
+/>
+`;

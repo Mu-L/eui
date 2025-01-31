@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EuiCopy renders 1`] = `
+<span
+  class="euiToolTipAnchor emotion-euiToolTipAnchor-inlineBlock"
+>
+  <button>
+    Click to copy input text
+  </button>
+</span>
+`;

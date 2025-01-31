@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EuiFilterSelectItem renders 1`] = `
+<button
+  aria-label="aria-label"
+  class="euiFilterSelectItem testClass1 testClass2 emotion-euiFilterSelectItem-euiTestCss"
+  data-test-subj="test subject string"
+  role="option"
+  type="button"
+>
+  <span
+    class="euiFlexGroup emotion-euiFlexGroup-s-flexStart-center-row"
+  >
+    <div
+      class="euiFlexItem emotion-euiFlexItem-growZero"
+    >
+      <span
+        data-euiicon-type="empty"
+      />
+    </div>
+    <span
+      class="euiFlexItem euiFilterSelectItem__content eui-textTruncate emotion-euiFlexItem-grow-1"
+    />
+  </span>
+</button>
+`;
