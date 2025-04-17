@@ -91,9 +91,21 @@ const config: Config = {
       items: [
         {
           type: 'docSidebar',
+          sidebarId: 'getting-started',
+          position: 'left',
+          label: 'Getting started',
+        },
+        {
+          type: 'docSidebar',
           sidebarId: 'components',
           position: 'left',
           label: 'Components',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'utilities',
+          position: 'left',
+          label: 'Utilities',
         },
         {
           type: 'docSidebar',
