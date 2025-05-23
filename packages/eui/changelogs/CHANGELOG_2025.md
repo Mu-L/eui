@@ -1,3 +1,73 @@
+## [`v102.1.0`](https://github.com/elastic/eui/releases/v102.1.0)
+
+- Update `EuiDataGrid` to use `expand` glyph ([#8646](https://github.com/elastic/eui/pull/8646))
+
+**Accessibility**
+
+- Updated `EuiTableHeaderCell` to output `nameTooltip` directly on sortable cell elements, ensuring tooltips appear on focus ([#8644](https://github.com/elastic/eui/pull/8644))
+- Improved the accessibility of `EuiColorPicker` by: ([#8639](https://github.com/elastic/eui/pull/8639))
+  - preventing duplicate color output for screen readers
+  - adding tooltips with visual color labels for the selected colors on the saturation and hue sliders
+  - updated accessible labels and announcements to be more descriptive
+
+**Dependency updates**
+
+- Updated `typescript` to v5.8.3 ([#8626](https://github.com/elastic/eui/pull/8626))
+
+## [`v102.0.0`](https://github.com/elastic/eui/releases/v102.0.0)
+
+- Added semantic severity color tokens: ([#8601](https://github.com/elastic/eui/pull/8601))
+    - `colors.severity.unknown`
+    - `colors.severity.neutral`
+    - `colors.severity.success`
+    - `colors.severity.warning`
+    - `colors.severity.risk` 
+    - `colors.severity.danger` 
+- Added semantic color tokens for variants `neutral` and `risk`: ([#8601](https://github.com/elastic/eui/pull/8601))
+    - `colors.textNeutral`
+    - `colors.textRisk`
+    - `colors.backgroundBaseNeutral`
+    - `colors.backgroundBaseRisk`
+    - `colors.backgroundLightNeutral`
+    - `colors.backgroundLightRisk`
+    - `colors.backgroundFilledNeutral`
+    - `colors.backgroundFilledRisk`
+    - `colors.borderBaseNeutral`
+    - `colors.borderBaseRisk`
+    - `colors.borderStrongNeutral`
+    - `colors.borderStrongRisk`
+- Added semantic color variants `neutral` and `risk` for the following components: ([#8601](https://github.com/elastic/eui/pull/8601))
+    - `EuiButton`
+    - `EuiButtonEmpty`
+    - `EuiButtonIcon`
+    - `EuiBadge`
+    - `EuiIcon`
+    - `EuiPanel`
+- Aligned `EuiFormControlLayoutIcons` to the top (instead of center) to improve usability in multi-line form controls like `EuiComboBox` with many selected options ([#8610](https://github.com/elastic/eui/pull/8610))
+
+**Breaking changes**
+
+- Removed numbered severity color tokens: ([#8601](https://github.com/elastic/eui/pull/8601))
+    - `colors.vis.euiColorSeverity0`
+    - `colors.vis.euiColorSeverity1`
+    - `colors.vis.euiColorSeverity2`
+    - `colors.vis.euiColorSeverity3`
+    - `colors.vis.euiColorSeverity4`
+    - `colors.vis.euiColorSeverity5`
+    - `colors.vis.euiColorSeverity6`
+    - `colors.vis.euiColorSeverity7`
+    - `colors.vis.euiColorSeverity8`
+    - `colors.vis.euiColorSeverity9`
+    - `colors.vis.euiColorSeverity10`
+    - `colors.vis.euiColorSeverity11`
+    - `colors.vis.euiColorSeverity12`
+    - `colors.vis.euiColorSeverity13`
+    - `colors.vis.euiColorSeverity14`
+
+**Accessibility**
+
+- Fixed duplicate screen reader output on `EuiDataGrid` for single sorted header cells with actions ([#8598](https://github.com/elastic/eui/pull/8598))
+
 ## [`v101.4.0`](https://github.com/elastic/eui/releases/v101.4.0)
 
 - Spread `labelProps` to the `label` element in `EuiCheckableCard` ([#8586](https://github.com/elastic/eui/pull/8586))
