@@ -1,5 +1,6 @@
 ---
 sidebar_position: 3
+keywords: [EuiSuperDatePicker]
 ---
 
 # Super date picker
@@ -390,13 +391,11 @@ import {
   OnTimeChangeProps,
 } from '@elastic/eui';
 
-export default ({
-  width,
-  compressed,
-}: {
-  width: EuiSuperDatePickerProps['width'];
-  compressed: boolean;
-}) => {
+export default () => {
+  const { euiTheme } = useEuiTheme();
+
+  const [compressed, setCompressed] = useState(false);
+  const [width, setWidth] = useState<EuiSuperDatePickerProps['width']>('restricted');
   const [start, setStart] = useState('now-30m');
   const [end, setEnd] = useState('now');
 
@@ -406,13 +405,38 @@ export default ({
   };
 
   return (
-    <EuiSuperDatePicker
-      start={start}
-      end={end}
-      onTimeChange={onTimeChange}
-      width={width}
-      compressed={compressed}
-    />
+    <>
+      <EuiFlexGroup alignItems="center">
+        <EuiFlexItem grow={false}>
+          <EuiSelect
+            prepend="Width"
+            fullWidth
+            compressed
+            value={width}
+            options={[
+              { value: 'restricted', text: 'restricted' },
+              { value: 'full', text: 'full' },
+              { value: 'auto', text: 'auto' },
+            ]}
+            onChange={(e) => setWidth(e.target.value as EuiSuperDatePickerProps['width'])}
+            aria-label="Super date picker width"
+          />
+        </EuiFlexItem>
+        <EuiSwitch
+          checked={compressed}
+          onChange={(e) => setCompressed(e.target.checked)}
+          label="Compressed"
+        />
+      </EuiFlexGroup>
+      <EuiSpacer />
+      <EuiSuperDatePicker
+        start={start}
+        end={end}
+        onTimeChange={onTimeChange}
+        width={width}
+        compressed={compressed}
+      />
+    </EuiSpacer>
   );
 };
 ```
